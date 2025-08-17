@@ -34,8 +34,7 @@ Foram aplicadas três técnicas de *prompt engineering*:
 
 - **`results/`**  
   Resultados gerados pelo código.  
-  - `avaliacao.csv`: métricas (precisão, recall e F1-score).  
-  - `logs/`: saída detalhada da execução.  
+  - `avaliador.py`: métricas (precisão, recall e F1-score).  
 
 ---
 
