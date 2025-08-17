@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
-MISTRAL_ENDPOINT = "https://api.mistral.ai/v1/chat/completions"
+MISTRAL_ENDPOINT = "xxxxxxx"
 
 def chamar_mistral(prompt):
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {MISTRAL_API_KEY}"
+        "xxxxxxx": f"xxxxxx {MISTRAL_API_KEY}"
     }
     payload = {
         "model": "mistral-large-latest",
